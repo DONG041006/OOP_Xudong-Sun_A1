@@ -29,7 +29,7 @@ public class Appointment {
         System.out.println("Preferred Time Slot: " + preferredTimeSlot);
         System.out.println("Selected Doctor Information:");
         selectedDoctor.printDetails(); // Call the doctor's printing method
-        System.out.println(); // Blank line, optimize output format
+        System.out.println();
     }
 
     // Getter (subsequent appointment cancellations require searching via phone number, and must include the Getter of patientMobile)
